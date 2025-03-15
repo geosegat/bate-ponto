@@ -29,7 +29,7 @@ const getProximoPonto = (quantidadeBatidas: number) => {
   const pontoLabels = [
     "Entrada (Início do Expediente)",
     "Saída para Almoço",
-    "Retorno do Almoço ",
+    "Retorno do Almoço",
     "Saída (Fim do Expediente)",
   ];
   return (
