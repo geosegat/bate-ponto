@@ -28,7 +28,7 @@ interface User {
 const getProximoPonto = (quantidadeBatidas: number) => {
   const pontoLabels = [
     "Entrada (Início do Expediente)",
-    "Saída para Almoço",
+    "Saída para Almoço s",
     "Retorno do Almoço",
     "Saída (Fim do Expediente)",
   ];
