@@ -47,8 +47,8 @@ Esta aplicação foi construída utilizando as seguintes tecnologias:
 
 ## 📱 Responsividade
 
-- **Layout Fixo**: A tela de login utiliza um layout fixo para melhor contraste.
-- **Transições Suaves**: Animação ao alternar temas para uma experiência de usuário fluida.
+- **Design Responsivo**: A aplicação foi construída com Tailwind CSS e se adapta a todos os tamanhos de tela, garantindo uma ótima experiência em desktops, tablets e smartphones.
+- **Transições Suaves**: Animações e layouts fluidos para uma navegação intuitiva.
 
 ---
 
