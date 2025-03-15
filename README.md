@@ -23,7 +23,8 @@ Aplicação web para registro de pontos de trabalho, com histórico de batidas e
   - Axios (Requisições HTTP)
   - date-fns (Manipulação de datas)
 
-  ![Preview](https://i.imgur.com/TfalE4G.png, https://i.imgur.com/xOvWgl5.png) <!-- Substitua pelo link do print do seu projeto -->
+  ![Preview](https://i.imgur.com/TfalE4G.png)
+  ![Preview](https://i.imgur.com/xOvWgl5.png)
 
 ## 🚀 Como Executar
 
