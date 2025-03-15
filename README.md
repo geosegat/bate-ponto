@@ -1,34 +1,63 @@
 # 🕒 Bate-Ponto Online
 
-Aplicação web para registro de pontos de trabalho, com histórico de batidas e interface responsiva. Ideal para controle de jornada de forma simples e eficiente.
+Aplicação web para registro de pontos de trabalho com histórico e tema escuro opcional. Controle sua jornada de trabalho de forma prática e moderna.
 
-## ✨ Funcionalidades
+---
 
-- **Autenticação por ID**: Acesso rápido com identificação do usuário.
-- **Registro de Pontos**:
-  - Entrada (Início do expediente)
-  - Saída para Almoço
-  - Retorno do Almoço
-  - Saída (Fim do expediente)
-- **Histórico Completo**: Visualização de todas as batidas registradas.
-- **Interface Responsiva**: Adaptável a dispositivos móveis e desktops.
+## ✨ Fluxo do Sistema
 
-## 🛠 Tecnologias Utilizadas
+### 1. Tela de Login (Light Mode)
 
-- **Frontend**:
+![Tela de Login](https://i.imgur.com/TfalE4G.png) <!-- Adicione o print da tela de login branca -->
 
-  - React + Vite
-  - TypeScript
-  - Tailwind CSS (Estilização)
-  - Axios (Requisições HTTP)
-  - date-fns (Manipulação de datas)
+### 2. Dashboard Pós-Login
 
-  ![Preview](https://i.imgur.com/TfalE4G.png)
-  ![Preview](https://i.imgur.com/xOvWgl5.png)
+| Light Mode                                          | Dark Mode                                          |
+| --------------------------------------------------- | -------------------------------------------------- |
+| ![Dashboard Light](https://i.imgur.com/bqnIqRE.png) | ![Dashboard Dark](https://i.imgur.com/7peaHmA.png) |
 
-## 🚀 Como Executar
+### 3. Histórico de Pontos
 
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/bate-ponto.git
-   ```
+| Light Mode                     | Dark Mode                     |
+| ------------------------------ | ----------------------------- |
+| ![Histórico Light](print-aqui) | ![Histórico Dark](print-aqui) |
+
+---
+
+## 🌗 Funcionamento do Dark Mode
+
+- **Ativação pós-login**: Disponível apenas após autenticação
+- **Troca automática**: Herda preferência do sistema operacional
+- **Persistência**: Mantém o tema escolhido entre recarregamentos
+
+**Exemplo de alternância**:
+![Botão Toggle](print-aqui) <!-- Adicione print do botão de alternância -->
+
+---
+
+## 📱 Responsividade
+
+| Mobile (Light)              | Mobile (Dark)              |
+| --------------------------- | -------------------------- |
+| ![Mobile Light](print-aqui) | ![Mobile Dark](print-aqui) |
+
+---
+
+### 🔧 Tecnologias
+
+- **Dark Mode**: Implementado via `localStorage` + Tailwind CSS
+- **Layout Fixo**: Login mantém tema claro para melhor contraste
+- **Transições Suaves**: Animação ao alternar temas
+
+---
+
+**Para completar**:
+
+1. Adicione prints reais do fluxo:
+   - Tela de login (sempre clara)
+   - Dashboard light/dark
+   - Histórico light/dark
+   - Versão mobile
+2. Recomendo usar [**Lightshot**](https://app.prntscr.com/) para capturas rápidas
+
+Quer que eu sugira como editar os screenshots para destacar o dark mode? 😊
