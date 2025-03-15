@@ -54,8 +54,7 @@ Esta aplicação foi construída utilizando as seguintes tecnologias:
 
 ## 🚀 Demo / Produção
 
-Você pode ver a aplicação em produção acessando:  
-[https://bate-bate-jojo.netlify.app/](https://bate-bate-jojo.netlify.app/)
+[Clicando aqui](https://bate-bate-jojo.netlify.app/) você acessa a versão em produção.
 
 ---
 
