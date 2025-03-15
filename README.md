@@ -4,6 +4,19 @@ Aplicação web para registro de pontos de trabalho com histórico e tema escuro
 
 ---
 
+## 🔧 Tecnologias
+
+Esta aplicação foi construída utilizando as seguintes tecnologias:
+
+- **Vite**: Ambiente de desenvolvimento e bundler ultrarrápido para aplicações React.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Tailwind CSS**: Framework CSS utilitário para criação de layouts responsivos e modernos.
+- **Axios**: Biblioteca para requisições HTTP, facilitando a integração com APIs.
+- **Lucide React**: Conjunto de ícones para interfaces modernas e intuitivas.
+- **LocalStorage**: Armazenamento local para persistência de dados, como histórico de pontos e preferências do usuário.
+
+---
+
 ## ✨ Fluxo do Sistema
 
 ### 1. Tela de Login (Light Mode)
@@ -26,18 +39,22 @@ Aplicação web para registro de pontos de trabalho com histórico e tema escuro
 
 ## 🌗 Funcionamento do Dark Mode
 
-- **Ativação pós-login**: Disponível apenas após autenticação
-- **Troca automática**: Herda preferência do sistema operacional
-- **Persistência**: Mantém o tema escolhido entre recarregamentos
+- **Ativação pós-login**: Disponível apenas após autenticação.
+- **Troca automática**: Herda a preferência do sistema operacional.
+- **Persistência**: Mantém o tema escolhido entre recarregamentos.
 
 ---
 
 ## 📱 Responsividade
 
-### 🔧 Tecnologias
-
-- **Dark Mode**: Implementado via `localStorage` + Tailwind CSS
-- **Layout Fixo**: Login mantém tema claro para melhor contraste
-- **Transições Suaves**: Animação ao alternar temas
+- **Layout Fixo**: A tela de login utiliza um layout fixo para melhor contraste.
+- **Transições Suaves**: Animação ao alternar temas para uma experiência de usuário fluida.
 
 ---
+
+## 🚀 Como Executar a Aplicação
+
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repo.git
+   ```
