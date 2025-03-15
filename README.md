@@ -18,9 +18,9 @@ Aplicação web para registro de pontos de trabalho com histórico e tema escuro
 
 ### 3. Histórico de Pontos
 
-| Light Mode                     | Dark Mode                     |
-| ------------------------------ | ----------------------------- |
-| ![Histórico Light](print-aqui) | ![Histórico Dark](print-aqui) |
+| Light Mode                                          | Dark Mode                                          |
+| --------------------------------------------------- | -------------------------------------------------- |
+| ![Histórico Light](https://i.imgur.com/Wnq8U7d.png) | ![Histórico Dark](https://i.imgur.com/zlcIhAo.png) |
 
 ---
 
@@ -30,18 +30,9 @@ Aplicação web para registro de pontos de trabalho com histórico e tema escuro
 - **Troca automática**: Herda preferência do sistema operacional
 - **Persistência**: Mantém o tema escolhido entre recarregamentos
 
-**Exemplo de alternância**:
-![Botão Toggle](print-aqui) <!-- Adicione print do botão de alternância -->
-
 ---
 
 ## 📱 Responsividade
-
-| Mobile (Light)              | Mobile (Dark)              |
-| --------------------------- | -------------------------- |
-| ![Mobile Light](print-aqui) | ![Mobile Dark](print-aqui) |
-
----
 
 ### 🔧 Tecnologias
 
@@ -50,14 +41,3 @@ Aplicação web para registro de pontos de trabalho com histórico e tema escuro
 - **Transições Suaves**: Animação ao alternar temas
 
 ---
-
-**Para completar**:
-
-1. Adicione prints reais do fluxo:
-   - Tela de login (sempre clara)
-   - Dashboard light/dark
-   - Histórico light/dark
-   - Versão mobile
-2. Recomendo usar [**Lightshot**](https://app.prntscr.com/) para capturas rápidas
-
-Quer que eu sugira como editar os screenshots para destacar o dark mode? 😊
