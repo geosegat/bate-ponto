@@ -62,5 +62,5 @@ Esta aplicação foi construída utilizando as seguintes tecnologias:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
+   git clone https://github.com/geosegat/bate-ponto.git
    ```

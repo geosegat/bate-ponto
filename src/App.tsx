@@ -10,7 +10,6 @@ import HistoryTable from "./components/HistoryTable";
 import Tabs from "./components/Tabs";
 import Modal from "./components/Modal";
 import DarkModeToggle from "./components/DarkModeToggle";
-
 import axios from "axios";
 import { isValidApiResponse, mapApiResponseToBatidas } from "./hooks/datamaper";
 import LogoutButton from "./components/LogoutButton";
@@ -24,19 +23,6 @@ interface User {
   id: string;
   nome: string;
 }
-
-const getProximoPonto = (quantidadeBatidas: number) => {
-  const pontoLabels = [
-    "Entrada (Início do Expediente)",
-    "Saída para Almoço",
-    "Retorno do Almoço",
-    "Saída (Fim do Expediente)",
-  ];
-  return (
-    pontoLabels[quantidadeBatidas] ||
-    "Você já bateu os pontos de hoje. Volte amanhã."
-  );
-};
 
 const App = () => {
   const [loggedUser, setLoggedUser] = useState<User | null>(null);
@@ -63,12 +49,18 @@ const App = () => {
   const [dadosCarregados, setDadosCarregados] = useState(false);
   const [isDarkTheme, setIsDarkTheme] = useState(false);
 
-  useEffect(() => {
-    const storedUser = localStorage.getItem("loggedUser");
-    if (storedUser) {
-      setLoggedUser(JSON.parse(storedUser));
-    }
-  }, []);
+  const getProximoPonto = (quantidadeBatidas: number) => {
+    const pontoLabels = [
+      "Entrada (Início do Expediente)",
+      "Saída para Almoço",
+      "Retorno do Almoço",
+      "Saída (Fim do Expediente)",
+    ];
+    return (
+      pontoLabels[quantidadeBatidas] ||
+      "Você já bateu os pontos de hoje. Volte amanhã."
+    );
+  };
 
   const handleLogin = (user: User) => {
     setLoggedUser(user);
@@ -134,6 +126,13 @@ const App = () => {
       alert("Senha incorreta!");
     }
   };
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("loggedUser");
+    if (storedUser) {
+      setLoggedUser(JSON.parse(storedUser));
+    }
+  }, []);
 
   useEffect(() => {
     const historicoSalvo = localStorage.getItem("historicoPontos");
